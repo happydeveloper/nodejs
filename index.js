@@ -10,6 +10,7 @@ const server = http.createServer((req, res) => {
   res.write('Name : DURU KANG\n');
   //시간출력
   res.end('Now : '+ new Date().toJSON());
+  console.log('Now : ' + new Date().toJSON());
 });
 
 server.listen(port, hostname, () => {
