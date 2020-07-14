@@ -1,3 +1,4 @@
+// https://nodejs.org/en/knowledge/file-system/how-to-write-files-in-nodejs/
 const fs = require('fs');
 
 fs.writeFile( new Date().toJSON()+'_sample.txt', 'Hello ERTI!', function(err){
